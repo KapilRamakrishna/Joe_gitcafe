@@ -1,0 +1,224 @@
+/* css added by gurpreet start */
+span.stockWarning {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: x-small;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #af2913;
+}
+.yellobtn {
+    margin-left: 5px;
+	background:#ffd814 !important;
+}
+.cust-login-inner .login-box .login-filed .input-group input.form-control{
+	text-transform: none !important;
+}
+.similrImage {
+	display:none;
+}
+.othOpt {
+	display:none;
+}
+.questiosn_anwsers .askShortText{
+	color:#000000;
+	font-weight:500;
+}
+.questiosn_anwsers .LongText{
+	display:none;
+	color:#000000;
+	font-weight:500;
+}
+a.a-link-normal.askSeeLess {
+    color: #007185;
+}
+a.a-link-normal.askSeeMore {
+    color: #007185;
+}
+.reviews_sys .LongText{
+	display:none;
+}
+.like:hover{
+color: hsl(30deg 87% 48%) !important;
+}
+.dis-like:hover{
+color: hsl(30deg 87% 48%) !important;
+}
+.vootes{
+	text-align: center;
+    margin-left: 8px;
+}
+.quick-view-wrapper .quick-primary {
+	max-width: 400px;
+}
+.single-pro-detail .same-other-prod .other-prod-coll .other-prod-proce span.product-c-price {
+   text-decoration:none !important;
+}
+.frstBox {
+    border: 1px solid #E47911 !important;
+}
+.other-prod-coll.othBox.frstbox {
+    border: 1px solid #E47911 !important;
+}
+p.forget-pass {
+    font-weight: 600;
+}
+.quick-view-wrapper .quick-primaryNew {
+    width: auto;
+    height: 80vh;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.quick-view-wrapper .quick-primaryNew {
+    max-width: 400px;
+}
+.product-content h3.product-name{
+	white-space: unset;
+}
+/*.credit-card-coll:hover {
+    background: rgb(223, 234, 206);
+}
+.payment-method-sec div:active {
+    background: rgb(223, 234, 206);;
+}*/
+span.size-inch.defOpt {
+    font-weight: 700;
+}
+.drop-down-box form.dropdown-form .login-filed .input-group input.form-control{
+	text-transform: none !important;
+}
+.single-pro-detail .same-other-prod .other-prod-coll{
+	background:#fff;
+}
+.single-pro-detail .same-other-prod .other-prod-coll .other-prod-proce span.product-c-price{
+	color:#000;
+}
+.othBox:hover{
+	background:#f3f3f3 !important;
+	border-color:#d3d3d3 !important;
+	color: #B02C18 !important;
+}
+.frstbox span.product-c-price {
+    color: #B02C18 !important;
+	font-weight: 600 !important;
+}
+.single-pro-detail .same-other-prod{
+	margin-top:0px !important;
+}
+.frstbox:hover{
+	background:#fff !important;
+}
+.shop-cart-body .product-cart-price .remove-product ul.remove-ul button.btn.remove{
+	color: #007185 !important;
+}
+.othBox:hover .product-c-price{	
+	color: #B02C18 !important;
+}
+.product-cart-head.product-total {
+    display: none;
+}
+#product-image-popup .primary{
+	background-color:#fff !important;
+}
+.quick-primary{
+	background-color:#fff !important;
+}
+.product-cart-head.product-name{
+	display: none;
+}
+.cart-detail-page .shop-cart-box .shop-cart-head{
+	border-bottom: none !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+.giftvoucherMethod {
+    display: none !important;
+}
+h3.nobtmMrgn {
+    margin-top: 15px;
+    margin-bottom: 0px !important;
+}
+span.size-inch.defOpt {
+    font-weight: 600;
+    font-size: 14px;
+}
+.prod-size {
+    margin-top: 10px;
+}
+.prod-size label.title {
+    font-size: 14px;
+    font-weight: 600;
+}
+.orfhtrybtn:hover{
+	color: #fff;
+    background-color: #212529 !important;
+    border-color: #212529;
+}
+.home-banner .slide-banner img{
+	height:auto;
+}
+.quick-product-info .quantity-coll {
+    display: flex;
+    align-items: center;
+}
+.quick-product-info .quantity-coll label.quantity-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+@media(min-width:1450px){
+	.site-categories.srcrslt .site-category-list .slide-banner {
+		width: 25%;
+	}
+	.site-categories .site-category-list .slide-banner {
+		width: 25%;
+	}
+}
+.hotline-coll span.swi-cl {
+    margin-left: 10px;
+}
+
+.hotline-coll span.swi-cl a {
+    font-size: 12px;
+    text-transform: capitalize;
+    background: #83e6c4;
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: #001a2f;
+    font-weight: 500;
+}
+
+.sub-header-outer .sub-header .hotline-coll span.swi-cl a i {font-size: 15px;color: #001a2f;margin-right: 0;}
+
+@media (max-width: 1050px) {
+.category-list ul.cat-list-ul li a {
+    font-size: 12px;
+    font-weight: 400;
+	}
+}
+@media (max-width: 1023px) { 
+.category-list ul.cat-list-ul li:last-child {
+    display: none;
+}
+}
+.all_question_ans {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 40px 10px;
+}
+.all_question_ans h2 {
+    margin: 0;
+}
+.all_question_ans h2 a {
+    font-size: 15px;
+    color: #094e82;
+    font-weight: 700;
+}
+.pro-price-coll {
+    font-size: 20px;
+    color: #063043;
+    font-weight: 700;
+}
+.pro-price-coll s {font-weight: 600 !Important;}
+/* css added by gurpreet end */

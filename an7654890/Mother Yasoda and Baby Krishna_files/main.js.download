@@ -1,0 +1,199 @@
+/**
+* Template Name: Company - v4.3.0
+* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+jQuery(document).ready(function () {
+    ma5menu({
+        menu: '.site-menu',
+        activeClass: 'active',
+        footer: '#ma5menu-tools',
+        position: 'left',
+        closeOnBodyClick: true
+    });
+    
+//    jQuery(".ma5menu__head .ma5menu__toggle").on("click",function(){
+//        $('.ma5menu--ready').removeClass('.ma5menu--active');
+//    jQuery('.ma5menu__leave').click();
+//    });
+    
+    jQuery(".ma5menu__close").on("click",function(){        
+        setTimeout(function(){
+            jQuery('.ma5menu__panel').removeClass('ma5menu__panel--parent-enter').removeClass('ma5menu__panel--active');
+            jQuery('.lvl-0').addClass('ma5menu__panel--active');
+        },1000)
+        
+    });
+
+    $('.signin-account.header-control .dropdown-menu').click(function(e){
+        e.stopPropagation();
+    })
+
+    if (jQuery('.regular').length > 0) {
+        jQuery('.regular').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+        });
+    }
+
+    if (jQuery('.cat-slide').length > 0) {
+        jQuery('.cat-slide').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            arrows: true,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            // responsive: [
+            //     {
+            //         breakpoint: 1200,
+            //         settings: {
+            //             slidesToShow: 4,
+            //             slidesToScroll: 4
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 1024,
+            //         settings: {
+            //             slidesToShow: 3,
+            //             slidesToScroll: 3
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 768,
+            //         settings: {
+            //             slidesToShow: 2,
+            //             slidesToScroll: 2
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 601,
+            //         settings: {
+            //             slidesToShow: 1,
+            //             slidesToScroll: 1
+            //         }
+            //     },
+            // ]
+        });
+    }
+    
+    if (jQuery('.customer-testimonials').length > 0) {
+        jQuery('.customer-testimonials').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 4,
+            arrows: true,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2
+                    }
+                }
+                
+            ]
+        });
+    }
+    
+    if (jQuery('.product-slide').length > 0) {
+        jQuery('.product-slide').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            arrows: true,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            responsive: [
+                 {
+                     breakpoint: 1280, 
+                     settings: {
+                         slidesToShow: 5,
+                         slidesToScroll: 5
+                     }
+                 },
+                 {
+                     breakpoint: 1100,
+                     settings: {
+                         slidesToShow: 4,
+                         slidesToScroll: 4
+                     }
+                 },
+            //     {
+            //         breakpoint: 768,
+            //         settings: {
+            //             slidesToShow: 2,
+            //             slidesToScroll: 2
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 601,
+            //         settings: {
+            //             slidesToShow: 1,
+            //             slidesToScroll: 1
+            //         }
+            //     },
+            ]
+        });
+    }
+
+    if (jQuery('.product-p-slide').length > 0) {
+        jQuery('.product-p-slide').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            arrows: true,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            // responsive: [
+            //     {
+            //         breakpoint: 1200,
+            //         settings: {
+            //             slidesToShow: 4,
+            //             slidesToScroll: 4
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 1024,
+            //         settings: {
+            //             slidesToShow: 3,
+            //             slidesToScroll: 3
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 768,
+            //         settings: {
+            //             slidesToShow: 2,
+            //             slidesToScroll: 2
+            //         }
+            //     },
+            //     {
+            //         breakpoint: 601,
+            //         settings: {
+            //             slidesToShow: 1,
+            //             slidesToScroll: 1
+            //         }
+            //     },
+            // ]
+        });
+    }
+
+    $(document).mouseup(function (e) {
+        if ($(e.target).closest(".desktop-search").length=== 0) {
+            $("#search_suggest").hide();
+        }
+        
+        if ($(e.target).closest(".mobile-search").length=== 0) {
+            $("#search_suggestMobile").hide();
+        }
+    });
+    
+});
